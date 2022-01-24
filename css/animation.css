@@ -1,0 +1,57 @@
+/* Animation */
+@keyframes up-down-img {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: -40px;
+    }
+}
+
+@keyframes arow-animation {
+    0%, 10%, 20%, 50%, 100% {
+        transform: translateY(0);
+    }
+
+    40%, 60% {
+        transform: translateY(-15px);
+    }
+}
+
+
+@keyframes left-ani-heading {
+    100% {
+        width: 50%;
+        height: 100%;
+        border-radius: 0;
+        top: 5px;
+        z-index: -1x;
+    }
+}
+
+@keyframes right-ani-heading {
+    100% {
+        width: 50%;
+        height: 100%;
+        border-radius: 0;
+        top: 5px;
+        z-index: -1x;
+    }
+}
+
+@keyframes color-ani {
+    100% {
+        color: white;
+        border: 2px solid white;
+    }
+}
+
+@keyframes arwo-animation {
+    0%, 100% {
+        right: 15px;
+    }
+
+    50% {
+        right: 25px;
+    }
+}
